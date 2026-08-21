@@ -1,4 +1,4 @@
-const BASE = 'http://3.144.146.240:8000'
+const BASE = 'http://workout-tracker-alb-1218280969.us-east-2.elb.amazonaws.com'
 
 async function req(method, path, body) {
   const opts = { method, headers: { 'Content-Type': 'application/json' } }
